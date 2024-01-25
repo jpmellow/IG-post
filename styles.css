@@ -6,73 +6,28 @@ html {
 
 body {
     margin: 0;
+	width: 720px;
+	display: flex;
 }
 
-h1 {
-    font-size: 32px;
+.post-header {
+	display: flex;
+	justify-content: space-between;
+	height: 50px;
+	padding: 5px;
 }
 
-.center-me {
-  margin: 0 auto;
-  width: 700px;  
+.post-header-left {
+	display: flex;
 }
 
-#nav {
-    margin-bottom: 0px;
+.post-header-right {
 }
 
-.nav-content {
-    box-sizing: content-box;  
-    width: 700px;
-    height: 60px;
-    margin-left: 33%;
-    padding-top: 10px;
-    padding-bottom: 25px;
+.avatar {
+	height: 40px;
 }
 
-#spacer {
-    background: #eaeaea;
-    height: 60px;
-}
-
-.feed {
-    display: block;
-    background: #eaeaea;
-    padding-bottom: 70px;
-}
-
-.feed img {
-    width: 700px;
-}
-
-.photo-card {
-    width: 700px;
-    margin-left: 33%;
-    margin-bottom: 70px;
-}
-
-.card-top-banner {
-    display: flex;
-    justify-content: space-between;
-    background: white;
-    height: 50px;
-    padding-top: 0px;
-    padding-left: 10px;
-    padding-bottom: 15px;
-}
-
-.date {
-    color: gray;
-    padding-top: 25px;
-    padding-right: 10px;
-    
-}
-
-.caption {
-    background: white;
-    color: #4c4c4c;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
+.engagement-icons-left {
+	height: 50px;
 }
