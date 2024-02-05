@@ -4,30 +4,66 @@ html {
     font-family: Helvetica;
 }
 
+
 body {
-    margin: 0;
-	width: 720px;
-	display: flex;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.post {
+	max-width: 600px;
+	margin: 20px auto;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	background-color: #fff;
 }
 
 .post-header {
 	display: flex;
+	align-items: center;
 	justify-content: space-between;
-	height: 50px;
-	padding: 5px;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
 }
 
-.post-header-left {
+.post-header-left-avatar {
 	display: flex;
+	align-items: center;
 }
 
-.post-header-right {
+.post-header-left-userdetails {
+	margin-left: 10px;
 }
 
-.avatar {
-	height: 40px;
+.avatar img {
+	border-radius: 50%;
 }
 
-.engagement-icons-left {
-	height: 50px;
+.post-image img {
+	width: 100%;
+	height: auto;
+}
+
+.engagement-bar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.engagement-bar i {
+	margin-right: 10px;
+}
+
+.engagement-bar-left {
+	display: flex;
+	align-items: left;
+	padding: 10px;
+}
+
+
+.post-body {
+	padding: 10px;
 }
